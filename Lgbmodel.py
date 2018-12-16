@@ -3,8 +3,10 @@ import numpy as np
 import lightgbm as lgb
 from sklearn.model_selection import StratifiedKFold
 from feature import Feature
-class lgbmodel():
 
+class lgbmodel():
+	#build lbg model
+	
 	def __init__(self,train,test,label,sub,random_seed):
 		
 		self.sub = sub
