@@ -4,6 +4,7 @@ import numpy as np
 import Datapro
 import Lgbmodel
 import random
+
 def main():
     
     Data = Datapro.data_process(clean_label=True,ifdrop=False)
